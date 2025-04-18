@@ -24,7 +24,7 @@ app.get("/api/hello", function (req, res) {
 });
 
 //timestamp microservice endpoint
-app.get("/api/timestamp/:date?", function (req, res) {
+app.get("/api/:date?", function (req, res) {
   const dateParam = req.params.date;
   let date;
 });
